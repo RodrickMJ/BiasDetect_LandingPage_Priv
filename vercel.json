@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "dist"
+            }
+        }
+    ],
+    "headers": [
+        {
+            "source": "/aviso-de-privacidad.pdf",
+            "headers": [
+                {
+                    "key": "Content-Type",
+                    "value": "application/pdf"
+                },
+                {
+                    "key": "Content-Disposition",
+                    "value": "attachment; filename=\"Aviso_de_Privacidad_BiasDetect.pdf\""
+                }
+            ]
+        }
+    ],
+    "outputDirectory": "dist",
+    "public": true
+}

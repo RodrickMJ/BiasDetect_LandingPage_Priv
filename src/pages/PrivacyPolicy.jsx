@@ -128,7 +128,11 @@ export default function PrivacyPolicy() {
                 </section>
 
                 <div className={styles.download}>
-                    <a href="/public/aviso_de_privacidad.pdf" download className={styles.btn}>
+                    <a
+                        href="/aviso-de-privacidad.pdf"
+                        download="Aviso_de_Privacidad_BiasDetect.pdf"
+                        className={styles.btn}
+                    >
                         Descargar Aviso de Privacidad (PDF)
                     </a>
                 </div>
