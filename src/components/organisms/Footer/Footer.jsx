@@ -20,7 +20,7 @@ export default function Footer() {
         { to: '#', text: 'Documentación API' },
         { to: '#', text: 'GitHub' },
         { to: '#', text: 'Contribuir' },
-        { to: '#', text: 'Roadmap' },
+        { to: '#', text: 'Change' },
     ]
 
     const contactoLinks = [
