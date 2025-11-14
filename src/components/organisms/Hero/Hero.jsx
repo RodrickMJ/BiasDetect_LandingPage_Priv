@@ -16,7 +16,7 @@ export default function Hero() {
 
                 <div className={styles.content}>
                     <div className={styles.image}>
-                        <img src="./src/assets/movileanddestock.png" alt="Análisis de sesgos" />
+                        <img src="/src/assets/movileanddestock.png" alt="Análisis de sesgos" />
                     </div>
                     <div className={styles.text}>
                         <h3>Tecnología avanzada para el pensamiento crítico</h3>
