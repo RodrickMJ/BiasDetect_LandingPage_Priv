@@ -1,0 +1,27 @@
+.group {
+    text-align: left;
+}
+
+.label {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 0.5rem;
+}
+
+.select {
+    width: 100%;
+    padding: 0.9rem 1.2rem;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 12px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.select:focus {
+    outline: none;
+    border-color: #1e40af;
+    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.15);
+}

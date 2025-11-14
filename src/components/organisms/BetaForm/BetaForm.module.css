@@ -1,0 +1,83 @@
+.section {
+    background: linear-gradient(135deg, #516788 0%, #1e293b 100%);
+    padding: 6rem 0;
+    color: #e2e8f0;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    padding: 3rem 2.5rem;
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+}
+
+.title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #1e293b;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #475569;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.privacy {
+    text-align: left;
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.7;
+    margin: 1.5rem 0;
+}
+
+.privacy p {
+    position: relative;
+    padding-left: 1.6rem;
+}
+
+.privacy p::before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    color: #ea580c;
+    font-weight: bold;
+}
+
+.terms {
+    font-size: 0.85rem;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.link {
+    color: #1e40af;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #3730a3;
+}
