@@ -2,12 +2,33 @@ import HowCard from '../../molecules/HowCard/HowCard'
 import styles from './HowItWorks.module.css'
 
 const steps = [
-    { icon: 'smile', title: 'Minería de Datos y Procesamiento', arrow: '→ Pipeline de ingesta continuo de corpus textuales masivos' },
-    { icon: 'cube', title: 'Modelado con Transformers y LLMs', arrow: '→ Clasificación multi-etiqueta de sesgos específicos' },
-    { icon: 'alert', title: 'Análisis de Sentimiento Contextual', arrow: '→ Medición del grado de polarización emocional' },
-    { icon: 'clock', title: 'Generación de Explicaciones', arrow: '→ Funcionalidad pedagógica con LLMs' },
-    { icon: 'layers', title: 'API RESTful Multiplataforma', arrow: '→ Web Dashboard, extensión de navegador y app móvil' }
+    { 
+        icon: 'smile', 
+        title: 'Ingesta y Procesamiento del Comunicado', 
+        arrow: '→ Scraping, limpieza y normalización del texto oficial para análisis' 
+    },
+    { 
+        icon: 'cube', 
+        title: 'Análisis Semántico y Detección de Sesgos', 
+        arrow: '→ Relevancia, contradicción (NLI) y clasificación de sesgos cognitivos' 
+    },
+    { 
+        icon: 'alert', 
+        title: 'Contexto Histórico con RAG', 
+        arrow: '→ Recuperación de antecedentes de comunicados previos para enriquecer el análisis' 
+    },
+    { 
+        icon: 'clock', 
+        title: 'Generación de Explicaciones', 
+        arrow: '→ Señalamiento de sesgos, distorsiones y evidencias textuales' 
+    },
+    { 
+        icon: 'layers', 
+        title: 'API Inteligente Multiplataforma', 
+        arrow: '→ Integración con Web Dashboard, extensiones de navegador y apps móviles' 
+    }
 ]
+
 
 export default function HowItWorks() {
     return (

@@ -9,7 +9,7 @@ export default function Hero() {
                     <span className={styles.bold}>Combatiendo la Manipulación Digital</span>
                 </h1>
                 <p className={styles.desc}>
-                    Asistente inteligente que aplica IA avanzada para detectar, clasificar
+                    Asistente inteligente  para detectar, clasificar
                     y explicar sesgos cognitivos en discursos públicos, noticias y redes
                     sociales.
                 </p>
@@ -22,7 +22,7 @@ export default function Hero() {
                         <h3>Tecnología avanzada para el pensamiento crítico</h3>
                         <p>
                             Nuestra plataforma utiliza modelos Transformer y técnicas de PLN
-                            para identificar 47 tipos de sesgos cognitivos y falacias lógicas
+                            para identificar  sesgos cognitivos y falacias lógicas
                             en tiempo real.
                         </p>
                         <ul className={styles.features}>

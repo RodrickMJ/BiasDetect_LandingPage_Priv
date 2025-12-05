@@ -4,23 +4,30 @@ import styles from './Audience.module.css'
 const audience = [
     {
         icon: 'layers',
-        title: 'Investigadores y Analistas',
-        arrow: '→ Dashboard con visualizaciones de tendencias de sesgos',
-        text: 'Análisis de grandes volúmenes de texto para estudios de polarización y manipulación discursiva.'
+        title: 'Verificadores de Información',
+        arrow: '→ Comparación entre comunicado oficial y noticia sospechosa',
+        text: 'Detecta contradicciones y manipulación narrativa en textos que circulan en medios y redes.'
     },
     {
         icon: 'alert',
-        title: 'Educadores y Estudiantes',
-        arrow: '→ Desarrollo de habilidades de pensamiento crítico',
-        text: 'Herramienta pedagógica para enseñar y aprender sobre falacias lógicas y sesgos cognitivos.'
+        title: 'Periodistas y Medios de Comunicación',
+        arrow: '→ Análisis automático de distorsión y contexto',
+        text: 'Permite validar la fidelidad de noticias externas frente a declaraciones oficiales.'
+    },
+    {
+        icon: 'cube',
+        title: 'Analistas Políticos y Equipos de Comunicación',
+        arrow: '→ Monitoreo de cómo se reinterpreta o distorsiona un discurso',
+        text: 'Ayuda a identificar patrones narrativos y sesgos aplicados por terceros.'
     },
     {
         icon: 'smile',
-        title: 'Ciudadanos Conscientes',
-        arrow: '→ Extensión de navegador para verificación en tiempo real',
-        text: 'Protección contra desinformación y manipulación en redes sociales y noticias digitales.'
+        title: 'Ciudadanos que buscan verificar rumores',
+        arrow: '→ Verificación rápida desde extensión o app',
+        text: 'Pega una noticia o comentario y descubre si coincide o contradice el comunicado oficial.'
     }
 ]
+
 
 export default function Audience() {
     return (
